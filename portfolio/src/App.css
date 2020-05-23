@@ -1,3 +1,7 @@
+.container {
+  margin-top: 2em;
+}
+
 @keyframes icon-spin {
   from {
     transform: rotate(0deg);
@@ -19,4 +23,26 @@
 
 .throb i:hover{
   animation: icon-throb 0.5s alternate ease-out infinite;
+}
+
+h3 {
+  width: 70%;
+  margin: .7em auto;
+  overflow: hidden;
+  text-align: center;
+}
+h3:before, h3:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 .5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 2px solid;
+}
+h3:after {
+  margin: 0 -55% 0 .5em;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
 }
