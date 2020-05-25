@@ -46,3 +46,26 @@ span {
   display: inline-block;
   vertical-align: middle;
 }
+
+.fab{
+  font-size: 8em;
+  padding: 15px;
+}
+
+a i.fab {
+  padding: 15px;
+  color: #444;
+}
+
+a i.fab:hover {
+  color: #888;
+}
+
+.img-thumbnail{
+  margin: 10px;
+  filter: drop-shadow(5px 5px 5px grey);
+}
+
+img.contact-img{
+  transform: scaleX(-1);
+}
