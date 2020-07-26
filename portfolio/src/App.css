@@ -47,20 +47,6 @@ span {
   vertical-align: middle;
 }
 
-.fab{
-  font-size: 8em;
-  padding: 15px;
-}
-
-a i.fab {
-  padding: 15px;
-  color: #444;
-}
-
-a i.fab:hover {
-  color: #888;
-}
-
 .img-thumbnail{
   margin: 10px;
   filter: drop-shadow(5px 5px 5px grey);
@@ -68,4 +54,12 @@ a i.fab:hover {
 
 img.contact-img{
   transform: scaleX(-1);
+}
+
+.portfolio-link{
+  color: #222;
+}
+
+.portfolio-link:hover{
+  color: #444;
 }

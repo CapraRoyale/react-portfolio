@@ -14,12 +14,12 @@ function App() {
   return (
     <div className="App">
       <Navbar bg="dark" variant="dark" sticky="top">
-        <Navbar.Brand href="#home"><h2 class="throb"><i class="fas fa-genderless"></i> Siege</h2></Navbar.Brand>
+        <Navbar.Brand href="#home"><h2>Siege</h2></Navbar.Brand>
         <Nav className="mr-auto"></Nav>
         <Nav>
-          <Nav.Link href="/home"><h5 class="throb"><i class="fas fa-home"></i> Home</h5></Nav.Link>
-          <Nav.Link href="/portfolio"><h5 class="throb"><i class="fas fa-folder-open"></i> Portfolio</h5></Nav.Link>
-          <Nav.Link href="/contact"><h5 class="throb"><i class="fas fa-address-card"></i> Contact</h5></Nav.Link>
+          <Nav.Link href="/home"><h5><i className="fad fa-home"></i> Home</h5></Nav.Link>
+          <Nav.Link href="/portfolio"><h5><i className="fad fa-folder-open"></i> Portfolio</h5></Nav.Link>
+          <Nav.Link href="/contact"><h5><i className="fad fa-address-card"></i> Contact</h5></Nav.Link>
         </Nav>
       </Navbar>
       <Container>
