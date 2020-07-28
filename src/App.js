@@ -1,11 +1,15 @@
 import React from 'react';
+
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+
+import './App.css';
+
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -27,10 +31,12 @@ function App() {
         <Row></Row>
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/portfolio" component={Portfolio} />
-            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
+            <Route path="/home" component={Home} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contact" component={Contact} />
             <Route component={Error} />
           </Switch>
         </Router>
