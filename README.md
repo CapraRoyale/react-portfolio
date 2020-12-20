@@ -1,8 +1,8 @@
-# Portfolio
+# Personal Portfolio Website
 
-## Single Page Application
+React Single Page Application
 
-### Built with
+## Built with
 
 - [React](https://reactjs.org/)
 
