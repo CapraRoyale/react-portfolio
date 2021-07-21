@@ -11,17 +11,16 @@
   }
 }
 
-@keyframes icon-throb{
-  from{
+@keyframes icon-throb {
+  from {
     transform: scale(1, 1);
   }
-
-  to{
+  to {
     transform: scale(1.1, 1.1);
   }
 }
 
-.throb i:hover{
+.throb i:hover {
   animation: icon-throb 0.5s alternate ease-out infinite;
 }
 
@@ -31,6 +30,7 @@ h3 {
   overflow: hidden;
   text-align: center;
 }
+
 h3:before, h3:after {
   content: "";
   display: inline-block;
@@ -39,27 +39,31 @@ h3:before, h3:after {
   vertical-align: middle;
   border-bottom: 2px solid;
 }
+
 h3:after {
   margin: 0 -55% 0 .5em;
 }
+
 span {
   display: inline-block;
   vertical-align: middle;
 }
 
-.img-thumbnail{
+.img-thumbnail {
   margin: 10px;
   filter: drop-shadow(5px 5px 5px grey);
 }
 
-img.contact-img{
-  transform: scaleX(-1);
-}
 
-.portfolio-link{
+
+.portfolio-link {
   color: #222;
 }
 
-.portfolio-link:hover{
+.portfolio-link:hover {
   color: #444;
+}
+
+.center {
+  text-align: center;
 }

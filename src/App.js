@@ -40,7 +40,12 @@ function App() {
             <Route component={Error} />
           </Switch>
         </Router>
-        <Row><Col><hr></hr></Col></Row>
+        <Row><Col><h1><hr></hr></h1></Col></Row>
+        <Row>
+          <Col>
+            <div class="center"> Built with React <i className="fab fa-react"></i></div>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
